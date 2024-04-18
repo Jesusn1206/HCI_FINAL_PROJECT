@@ -166,7 +166,7 @@ def render_Data():
 
     if uploaded_file is not None:
         df = pd.read_csv(uploaded_file)
-        st.success("File was Uploaded Succesfully")
+        st.success("File was Uploaded Successfully")
     else:
         df = pd.read_csv("mission156-complete.csv")  # Provide the path to your default dataset
 
